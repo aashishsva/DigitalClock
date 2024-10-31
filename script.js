@@ -43,15 +43,7 @@ function updateTime() {
     minuteEle.innerHTML = m;
     secondEle.innerHTML = s;
 
-    if (dateTime.getHours() >= 5 && dateTime.getHours() < 12) {
-        body.style.backgroundImage = "url('morning.jpg')";
-    } else if (dateTime.getHours() >= 12 && dateTime.getHours() < 17) {
-        body.style.backgroundImage = "url('afternoon.jpg')";
-    } else if (dateTime.getHours() >= 17 && dateTime.getHours() < 20) {
-        body.style.backgroundImage = "url('evening.jpg')";
-    } else {
-        body.style.backgroundImage = "url('night.jpg')";
-    }
+   
 
 }
 
