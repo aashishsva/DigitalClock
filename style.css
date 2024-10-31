@@ -6,7 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     justify-content: center;
-    background: url("night.jpg");
+    background: white;
     background-position: center;
     background-size: cover;
     overflow: hidden;
