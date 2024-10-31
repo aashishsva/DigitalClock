@@ -10,27 +10,26 @@ body {
     background-position: center;
     background-size: cover;
     overflow: hidden;
-  }
-  
-  h2 {
+}
+
+h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 20px;
     text-align: center;
     color: aliceblue;
-  }
-  
-  .clock {
+}
+
+.clock {
     display: flex;
-  }
-  
-  .clock div {
+}
+
+.clock div {
     margin: 5px;
     position: relative;
-    
-  }
-  
-  .clock span {
+}
+
+.clock span {
     width: 100px;
     height: 80px;
     background: #5C1C2C;
@@ -41,23 +40,48 @@ body {
     align-items: center;
     font-size: 50px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-  }
-  
-  .clock .text {
+}
+
+.clock .text {
     height: 30px;
     font-size: 10px;
     text-transform: uppercase;
     letter-spacing: 2px;
     background:#182538;
     opacity: 0.8;
-  }
-  
-  .clock #ampm {
+}
+
+.clock #ampm {
     bottom: 0;
     position: absolute;
     width: 60px;
     height: 30px;
     font-size: 20px;
     background: #020c15;
-  }
+}
 
+#greeting {
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+#toggleFormat {
+    padding: 10px 20px;
+    background-color: #af4c65;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+#toggleFormat:hover {
+    background-color: #45a049;
+}
